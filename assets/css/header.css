@@ -40,18 +40,8 @@ header{
     transition: 0.3s;
     display: block;
 }
-.menu-scroll a span:after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 1px;
-    background: #FFFFFF;
-    transition: 0.3s;
-    left: 0;
-}
-.menu-scroll a:hover span:after, .menu-scroll a:active span:after{
-    width: 100%;
+.menu-scroll a:hover, .menu-scroll a:active{
+    color: #2A43E7;
 }
 
 .header-btn{

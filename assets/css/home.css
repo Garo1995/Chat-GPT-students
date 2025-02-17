@@ -191,6 +191,12 @@ p{
     width: 100%;
 }
 
+
+.global-box-liner .btn-blue:hover, .global-box-liner.btn-blue:active{
+    background: #FFFFFF;
+    color: #141414;
+}
+
 @media (max-width: 767px) {
    h1{
        font-size: 32px;
@@ -308,7 +314,12 @@ p{
     color: #CBCBCB;
 }
 
-
+.global-box-bg .btn-arrow:hover{
+    background: #FFFFFF;
+}
+.global-box-bg .btn-arrow:hover .arrow-top-right {
+    content: url(../img/icon/top-right-blue.svg);
+}
 @media (max-width: 991px){
     .title-content{
         flex-direction: column;
@@ -519,7 +530,10 @@ p{
     font-size: 16px;
     line-height: 20px;
 }
-
+.achieve-goals .btn-blue:hover{
+    background: #FFFFFF;
+    color: #141414;
+}
 
 
 @media (max-width: 991px){
@@ -594,6 +608,10 @@ p{
 }
 .for-whom-box-bg .btn-blue{
     margin-top: 40px;
+}
+.for-whom-box-bg .btn-blue:hover{
+    background: #FFFFFF;
+    color: #141414;
 }
 .for-whom-box-bg p{
     color: #CBCBCB;
